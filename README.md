@@ -8,23 +8,14 @@
 [![MIT License][license-shield]][license-url]
 
   <p align="center">
-    <h3>A (WIP) brand new chatting platform focused on simplicty, privacy and speed.</h3>
 [<a href="https://github.com/Brian3647/Brian3647.github.io/issues">Report a Bug / Request a Feature</a>]
     </p>
 
 </div>
 
-## **What is sqoole?**
-
-Sqoole is a minimalist, open-source messaging app where chats get automatically deleted after less than 7 days. This is specially useful for small conversations that are not meant to be there forever, giving full security and trust to the users.
-
 ## **Contributing**
 
 Check [CONTRIBUTING.md](./.github/CONTRIBUTING.md) for all the information on how to help the project.
-
-## **Project Status**
-
-The API is mostly finished (even though email verification should be worked on asap), so the main focus now is the front-end.
 
 <!-- Links -->
 
