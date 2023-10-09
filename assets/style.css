@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=JetBrains+Mono&family=Tilt+Warp&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.fade-in {
+	opacity: 0;
+	transition: opacity 0.5s ease-in-out;
+}
+
+.fade-in.active {
+	opacity: 1;
+}
