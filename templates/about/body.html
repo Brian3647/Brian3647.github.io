@@ -24,35 +24,25 @@ original template can be found @ https://web3templates.com
 								>Portfolio</span
 							><span class="block text-black text-6xl sm:text-7xl xl:text-7xl"
 								>Víctor Ibáñez
+								<br />
 							</span>
 						</h1>
-						<br class="lg:hidden" />
-						<div class="hidden md:block">
-							<a
-								href="/projects.html"
-								class="hover:bg-indigo-500 text-blue-400"
-								translate
-								translate-key="projects-link"
-								>projects &rarr;</a
-							>
-							<br />
-							<a
-								href="/about.html"
-								class="hover:bg-indigo-500 text-blue-400"
-								translate
-								translate-key="aboutme-link"
-								>about me &rarr;</a
-							>
-						</div>
-						<div class="md:hidden">
-							{{ templates::about/content }}{{ templates::projects/content }}
-						</div>
-						{{ templates::footer }}
+						{{ templates::about/content }}
+						<br />
+						<a
+							href="/"
+							class="hover:bg-indigo-500 text-blue-400"
+							translate
+							translate-key="home-link"
+							>home &rarr;</a
+						>
 					</div>
+					{{ templates::footer }}
 				</div>
-				<div class="mt-10 lg:items-center hidden lg:block">
+				<div class="mt-10 lg:flex lg:items-center hidden">
 					<img
-						src="./cat.jpg"
+						class="mx-auto lg:mx-0"
+						src="./monosarticos.jpg"
 						alt="lmao the photo didn't load for you big skill issue"
 					/>
 				</div>

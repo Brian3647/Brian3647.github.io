@@ -7,15 +7,13 @@ original template can be found @ https://web3templates.com
 -->
 
 <div class="relative overflow-hidden font-mono">
-	<div
-		class="bg-white pt-1 pb-10 sm:pt-16 lg:overflow-hidden lg:pt-10 lg:pb-24"
-	>
+	<div class="bg-white sm:pt-16 lg:overflow-hidden h-screen xl:pt-36">
 		<div class="mx-auto max-w-7xl lg:px-8">
 			<div class="lg:grid lg:grid-cols-2 lg:gap-8">
 				<div
 					class="mx-auto max-w-md px-4 text-center sm:max-w-2xl sm:px-6 lg:flex lg:items-center lg:px-0 lg:text-left"
 				>
-					<div class="lg:py-12">
+					<div>
 						<h1
 							class="mt-1 lg:text-5xl font-bold tracking-tight text-black sm:mt-5 sm:text-4xl lg:mt-6 xl:text-6xl"
 						>
@@ -24,49 +22,27 @@ original template can be found @ https://web3templates.com
 								translate
 								translate-key="portfolio"
 								>Portfolio</span
-							><span
-								class="block text-black text-6xl sm:text-7xl xl:text-7xl"
+							><span class="block text-black text-6xl sm:text-7xl xl:text-7xl"
 								>Víctor Ibáñez
 								<br />
 							</span>
 						</h1>
-						<div class="mt-8">
-							<h2
-								class="text-3xl font-bold text-gray-900"
-								translate
-								translate-key="who-am-i"
-							>
-								About me
-							</h2>
-							<p
-								class="mt-4 text-base text-gray-500"
-								translate
-								translate-key="who-am-i-text"
-							>
-								I usually define myself as a calm programmer residing in Mollet del Vallès,
-								Barcelona. I love music
-								<i
-									>(right now, especially Arctic Monkeys, Kanye West, and some other indie
-									singers)</i
-								>
-								and I don't seek much more than building whatever my not-so-creative mind
-								comes up with. I like cats, debates, and gossip. I'm currently in my fourth
-								year of high school, and my birthday is on the 23rd of June.
-							</p>
-						</div>						
+						{{ templates::projects/content }}
+						<br />
 						<a
 							href="/"
 							class="hover:bg-indigo-500 text-blue-400"
 							translate
 							translate-key="home-link"
-						>home &rarr;</a>
+							>home &rarr;</a
+						>
 					</div>
 					{{ templates::footer }}
 				</div>
 				<div class="mt-10 lg:flex lg:items-center hidden">
 					<img
 						class="mx-auto lg:mx-0"
-						src="./cat.jpg"
+						src="./dev.png"
 						alt="lmao the photo didn't load for you big skill issue"
 					/>
 				</div>
