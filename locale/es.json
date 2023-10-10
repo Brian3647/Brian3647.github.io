@@ -7,5 +7,5 @@
 	"projects-text": "Por ahora, solo he construido páginas simples (<a href=\"https://stfu.now.sh\" class=\"hover:bg-indigo-500 text-blue-400\">stfu</a>, <a href=\"https://practice-binary.now.sh\" class=\"hover:bg-indigo-500 text-blue-400\">practice-binary</a>), bibliotecas (<a href=\"https://github.com/Brian3647/encoped\" class=\"hover:bg-indigo-500 text-blue-400\">encoped</a>, <a href=\"https://github.com/Brian3647/http\" class=\"hover:bg-indigo-500 text-blue-400\">http</a>) y herramientas de línea de comandos casi inútiles (<a href=\"https://github.com/Brian3647/nto\" class=\"hover:bg-indigo-500 text-blue-400\">nto</a>, <a href=\"https://github.com/Brian3647/todo-rs\" class=\"hover:bg-indigo-500 text-blue-400\">todo-rs</a>). Todos mis proyectos antiguos se pueden encontrar en <a href=\"https://github.com/Brian3647/\" class=\"hover:bg-indigo-500 text-blue-400\">mi GitHub</a>.",
 	"home-link": "página principal &rarr;",
 	"projects-link": "proyectos &rarr;",
-	"about-link": "sobre mí &rarr;"
+	"aboutme-link": "sobre mí &rarr;"
 }
