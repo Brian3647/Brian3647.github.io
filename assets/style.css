@@ -12,3 +12,8 @@
 .fade-in.active {
 	opacity: 1;
 }
+
+.size-70 {
+	height:70%;
+	width:70%;
+}
